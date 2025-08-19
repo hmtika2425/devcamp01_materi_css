@@ -1,0 +1,46 @@
+h2 {
+    color: green;
+}
+
+body{
+    background-color: rgb(0,0,0);
+}
+
+.classh3 {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+#idh4 {
+    color: brown;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+h1 {
+    word-spacing: 100px;
+}
+
+#demoFont {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 0.4px;
+    color: #FF0000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.demotext1 {
+color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+background: #232323;
+}
