@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: cadetblue;
+    color: white;
+    align-items: center;
+}
+
+.hero {
+    height: 100vh; /* Tinggi Visual Height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(2, 11, 48);
+    color: white;
+    text-align: center;
+
+    /* background */
+    background-image: url("https://cdn.hmtika.web.id/images/character/BCO.b9360524-19a0-4169-ab36-dc6421c84bd1_2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.herobtn {
+    width: 50%;
+    margin: 10px auto;
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.herobtn:hover {
+	background-color:#5cbf2a;
+}
+.herobtn:active {
+	position:relative;
+	top:1px;
+}
+
+.about {
+    min-height: calc(100vh - 100px);
+    padding: 50px 100px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about .about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about img{
+    width: 100px;
+    margin-right: 50px;
+    margin: auto;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.contact {
+    background-color: rgb(140, 140, 243);
+    min-height: 50vh;
+    padding: 50px 100px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact form input {
+    width: 300px;
+    padding: 5px;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+}
+
+.contact form input:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+}
+
+.contact form input::placeholder {
+	color: #DDDDDD;
+}
+
+.contact form textarea {
+    width: 90%;
+    margin-top: 20px;
+    padding: 5px;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+}
+
+.contact_button {
+	box-shadow: 5px 6px 0px 0px #ffd900;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 33px;
+	text-decoration:none;
+    margin-top: 30px;
+}
+.contact_button:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.contact_button:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
